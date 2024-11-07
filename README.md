@@ -4,6 +4,10 @@
 
 Este projeto consiste na modelagem de um data mart e no desenvolvimento de um pipeline ETL (Extração, Transformação e Carga) para análises de atendimentos médicos das unidades de saúde da cidade do Recife. O objetivo é centralizar os dados em um data warehouse, organizados em tabelas de dimensões e fatos, para suportar análises detalhadas no nível de atendimentos, equipes, profissionais e unidades de saúde.
 
+## Arquitetura do projeto
+![Arquieterura](imgs/dw_arch.jpeg)
+
+
 ## Funcionalidades
 
 - **Data Staging**: Os dados são inicialmente carregados em uma área de staging onde passam por tratamento e normalização.

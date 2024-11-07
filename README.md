@@ -30,7 +30,7 @@ Este projeto consiste na modelagem de um data mart e no desenvolvimento de um pi
 - **fato_atendimentos**: Armazena o número de atendimentos realizados, relacionando-os com as dimensões de unidade, data, equipe e profissional, permitindo análises detalhadas de atendimentos.
 
 ## Extração da staging área para o Data Mart com Airbyte
-![Airbyte](imgs/airbite (1).jpeg)
+![Airbyte](imgs/airbyte.jpeg)
 
 ## Tecnologias Utilizadas
 

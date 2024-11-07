@@ -7,7 +7,6 @@ Este projeto consiste na modelagem de um data mart e no desenvolvimento de um pi
 ## Arquitetura do projeto
 ![Arquieterura](imgs/dw_arch.jpeg)
 
-
 ## Funcionalidades
 
 - **Data Staging**: Os dados são inicialmente carregados em uma área de staging onde passam por tratamento e normalização.
@@ -16,6 +15,8 @@ Este projeto consiste na modelagem de um data mart e no desenvolvimento de um pi
 - **Suporte para Análises Avançadas**: A modelagem permite análises avançadas de atendimentos médicos, facilitando o acompanhamento de métricas de saúde e a performance das unidades de saúde.
 
 ## Estrutura do Data Mart
+
+![Modelo Star Schema](imgs/modelo_cnes_puc.jpeg)
 
 ### Tabelas de Dimensão
 
@@ -27,6 +28,9 @@ Este projeto consiste na modelagem de um data mart e no desenvolvimento de um pi
 ### Tabela de Fato
 
 - **fato_atendimentos**: Armazena o número de atendimentos realizados, relacionando-os com as dimensões de unidade, data, equipe e profissional, permitindo análises detalhadas de atendimentos.
+
+## Extração da staging área para o Data Mart com Airbyte
+![Airbyte](imgs/airbite (1).jpeg)
 
 ## Tecnologias Utilizadas
 
